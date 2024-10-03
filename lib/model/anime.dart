@@ -2,6 +2,7 @@ class Anime {
   const Anime({
     required this.id,
     required this.title,
+    required this.imageUrl,
     required this.score,
     required this.ranked,
     required this.popularity,
@@ -14,6 +15,7 @@ class Anime {
 
   final String id;
   final String title;
+  final String imageUrl;
   final double score;
   final int ranked;
   final int popularity;

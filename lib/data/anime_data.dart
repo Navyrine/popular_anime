@@ -4,6 +4,7 @@ const dummyAnime = [
   Anime(
       id: "A1",
       title: "Shingeki no Kyojin",
+      imageUrl: "https://i.pinimg.com/564x/67/b6/90/67b690140f09b858dd942c7a35e434e2.jpg",
       score: 8.55,
       ranked: 115,
       popularity: 1,
@@ -18,6 +19,7 @@ const dummyAnime = [
   Anime(
       id: "A2",
       title: "Death Note",
+      imageUrl: "https://i.pinimg.com/564x/79/ef/8a/79ef8af89cc542ea92ae742d20aec0bd.jpg",
       score: 8.62,
       ranked: 85,
       popularity: 2,
@@ -34,6 +36,7 @@ const dummyAnime = [
   Anime(
       id: "A3",
       title: "Fullmetal Alchemist: Brotherhood",
+      imageUrl: "https://i.pinimg.com/564x/d2/ec/86/d2ec86a2dad8fa9bfcadd5c5358a7cd0.jpg",
       score: 9.09,
       ranked: 2,
       popularity: 3,
@@ -50,6 +53,7 @@ const dummyAnime = [
   Anime(
       id: "A4",
       title: "One Punch Man",
+      imageUrl: "https://i.pinimg.com/736x/7e/54/37/7e5437e9362cf37d9058b9d11118fb8f.jpg",
       score: 8.49,
       ranked: 143,
       popularity: 4,
@@ -64,6 +68,7 @@ const dummyAnime = [
   Anime(
       id: "A5",
       title: "Kimetsu no Yaiba",
+      imageUrl: "https://i.pinimg.com/736x/81/c7/9c/81c79cb8cfcb320fb7890403fc9bc81d.jpg",
       score: 8.45,
       ranked: 161,
       popularity: 5,
@@ -78,6 +83,7 @@ const dummyAnime = [
   Anime(
       id: "A6",
       title: "Sword Art Online",
+      imageUrl: "https://i.pinimg.com/564x/07/42/ea/0742ea01770206ceb3623df70244060b.jpg",
       score: 7.21,
       ranked: 3230,
       popularity: 6,
@@ -95,6 +101,7 @@ const dummyAnime = [
   Anime(
       id: "A7",
       title: "Boku no Hero Academia",
+      imageUrl: "https://i.pinimg.com/564x/ac/e9/77/ace9779153b6783f6d01a1d34ce688a0.jpg",
       score: 7.85,
       ranked: 895,
       popularity: 7,
@@ -111,6 +118,7 @@ const dummyAnime = [
   Anime(
       id: "A8",
       title: "Hunter x Hunter (2011)",
+      imageUrl: "https://i.pinimg.com/736x/45/85/a1/4585a1d8296fb163248ee307a8db9bbb.jpg",
       score: 9.03,
       ranked: 9,
       popularity: 8,
@@ -127,6 +135,7 @@ const dummyAnime = [
   Anime(
       id: "A9",
       title: "Naruto",
+      imageUrl: "https://i.pinimg.com/564x/3a/8c/63/3a8c63737ae2d94f9d4f09f477e3df34.jpg",
       score: 8.00,
       ranked: 651,
       popularity: 9,
@@ -141,6 +150,7 @@ const dummyAnime = [
   Anime(
       id: "A10",
       title: "Tokyo Ghoul",
+      imageUrl: "https://i.pinimg.com/564x/55/b3/15/55b31567e84c0fde07586b7f34655e89.jpg",
       score: 7.79,
       ranked: 1025,
       popularity: 10,
