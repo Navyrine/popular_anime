@@ -17,7 +17,7 @@ class Anime {
   final double score;
   final int ranked;
   final int popularity;
-  final double members;
+  final String members;
   final String release;
   final String type;
   final String studio;
