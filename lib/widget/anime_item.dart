@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:popular_anime/model/anime.dart';
 
 class AnimeItem extends StatelessWidget {
-  const AnimeItem({super.key, required this.anime});
+  const AnimeItem({super.key, required this.anime, required this.onSelectedAnime});
 
   final Anime anime;
+  final void Function(Anime anime) onSelectedAnime;
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,7 @@ class AnimeItem extends StatelessWidget {
         clipBehavior: Clip.hardEdge,
         elevation: 5,
         child: InkWell(
-          onTap: () {},
+          onTap: () {onSelectedAnime(anime);},
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.min,
@@ -33,6 +34,8 @@ class AnimeItem extends StatelessWidget {
                         anime.title,
                         style: const TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 24),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
                       ),
                       const SizedBox(height: 10),
                       Text(
